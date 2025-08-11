@@ -5,7 +5,7 @@ description: "M.Sc. Economics and Social Sciences — Bocconi University | Aspir
 baseurl:
 url: "https://devpra1999.github.io"
 
-remote_theme: mmistakes/minimal-mistakes
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 plugins:
   - jekyll-remote-theme
   - jekyll-paginate
