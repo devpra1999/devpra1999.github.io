@@ -22,18 +22,3 @@ author:
     - label: "GitHub"
       icon: "fab fa-github"
       url: "https://github.com/devpra1999"
-
-# Defaults for page layouts
-defaults:
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: default
-      author_profile: true
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true

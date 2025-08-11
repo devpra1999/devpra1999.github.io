@@ -1,9 +1,9 @@
 main:
   - title: "About"
-    url: /about.md/
+    url: /about/
   - title: "Research"
-    url: /research.md/
+    url: /research/
   - title: "CV"
-    url: /cv.md/
+    url: /cv/
   - title: "Contact"
-    url: /contact.md/
+    url: /contact/
