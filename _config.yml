@@ -2,15 +2,45 @@ title: "Dev Prakash Srivastava"
 name: "Dev Prakash Srivastava"
 email: "dev.sriv99@gmail.com"
 description: "M.Sc. Economics and Social Sciences — Bocconi University | Aspiring Economics PhD Student"
-baseurl: ""
+baseurl:
 url: "https://devpra1999.github.io"
-theme: minimal-mistakes-jekyll
-github_username: devpra1999
-linkedin_username: devpra
-markdown: kramdown
+
+remote_theme: mmistakes/minimal-mistakes
 plugins:
+  - jekyll-remote-theme
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
   - jemoji
+
+author:
+  name: "Dev Prakash Srivastava"
+  avatar: "/assets/images/headshot.jpg" 
+  bio: "M.Sc. Economics and Social Sciences at Bocconi University | Aspiring Economics PhD Student"
+  location: "Italy"
+  links:
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:dev.sriv99@gmail.com"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://linkedin.com/in/devpra"
+    - label: "GitHub"
+      icon: "fab fa-github"
+      url: "https://github.com/devpra1999"
+
+# Defaults for page layouts
+defaults:
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
