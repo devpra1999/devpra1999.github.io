@@ -1,0 +1,16 @@
+title: "Dev Prakash Srivastava"
+name: "Dev Prakash Srivastava"
+email: "dev.sriv99@gmail.com"
+description: "M.Sc. Economics and Social Sciences — Bocconi University | Aspiring Economics PhD Student"
+baseurl: ""
+url: "https://devpra1999.github.io"
+theme: minimal-mistakes-jekyll
+github_username: devpra1999
+linkedin_username: devpra
+markdown: kramdown
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
